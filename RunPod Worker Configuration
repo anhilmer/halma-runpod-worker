@@ -1,0 +1,8 @@
+# RunPod Worker Configuration
+version: "1.0"
+
+entrypoint:
+  - /workspace/start.sh
+
+env:
+  RUNPOD_DEBUG: "1"
